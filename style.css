@@ -1,0 +1,29 @@
+
+.background{
+    margin-top: 2%;
+    background-image:url("rect.jpg");
+    width: 200px;
+    height: 190px;
+    position:relative;
+}
+
+.block0{
+    position:absolute;
+    /*background: blue;*/
+    top:25px;
+    right:76px;
+    width: 220px;
+    height: 90px;
+    transform: rotate(-62deg);
+}
+
+
+.block1{
+    position:absolute;
+    /*background: blue;*/
+    top:25px;
+    left:75px;
+    width: 220px;
+    height: 90px;
+    transform: rotate(62deg);
+}
